@@ -19,6 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10sp"
+            android:fontFamily="@font/roboto_slab_bold"
             android:gravity="center_horizontal"
             android:text="Select Barangay Councilors"
             android:textSize="20sp"
@@ -34,30 +35,35 @@
                 android:id="@+id/councilorChoice1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans"
                 android:text="Eldric Basa" />
 
             <CheckBox
                 android:id="@+id/councilorChoice2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans"
                 android:text="Angela Cation" />
 
             <CheckBox
                 android:id="@+id/councilorChoice3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans"
                 android:text="Joshua Entrata" />
 
             <CheckBox
                 android:id="@+id/councilorChoice4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans"
                 android:text="Clarisse Salazar" />
 
             <CheckBox
                 android:id="@+id/councilorChoice5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans"
                 android:text="Ronan Daliuag" />
 
         </LinearLayout>
@@ -67,6 +73,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10sp"
+            android:fontFamily="@font/open_sans_bold"
             android:text="Vote" />
 
     </LinearLayout>

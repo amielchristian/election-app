@@ -18,6 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10sp"
+            android:fontFamily="@font/roboto_slab_bold"
             android:gravity="center_horizontal"
             android:text="Select Barangay Chairman"
             android:textSize="20sp"
@@ -33,24 +34,28 @@
                 android:id="@+id/chairmanChoice1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans"
                 android:text="Angelo Dela Paz" />
 
             <RadioButton
                 android:id="@+id/chairmanChoice2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans"
                 android:text="Rob Thomas Alvarez" />
 
             <RadioButton
                 android:id="@+id/chairmanChoice3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans"
                 android:text="Fabian Salvador III" />
 
             <RadioButton
                 android:id="@+id/chairmanChoice4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans"
                 android:text="Alessandro Araza" />
 
         </RadioGroup>
