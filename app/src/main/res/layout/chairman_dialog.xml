@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/cardview_light_background"
+    app:cardCornerRadius="20dp"
+    android:layout_marginHorizontal="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:gravity="center_horizontal"
+            android:text="Select Barangay Chairman"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/chairmanChoices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp" >
+
+            <RadioButton
+                android:id="@+id/chairmanChoice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Angelo Dela Paz" />
+
+            <RadioButton
+                android:id="@+id/chairmanChoice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rob Thomas Alvarez" />
+
+            <RadioButton
+                android:id="@+id/chairmanChoice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fabian Salvador III" />
+
+            <RadioButton
+                android:id="@+id/chairmanChoice4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alessandro Araza" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

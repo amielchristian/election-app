@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:visibility="visible">
+
+
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:gravity="center_horizontal"
+        android:text="ELECTION 2023"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnChairman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10sp"
+        android:text="Barangay Chairman"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/chairmanContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_container"
+        android:backgroundTint="@color/md_theme_light_secondaryContainer"
+        android:orientation="vertical"
+        android:paddingLeft="35dp"
+        android:paddingTop="15dp"
+        android:paddingRight="35dp"
+        android:paddingBottom="15dp">
+
+        <TextView
+            android:id="@+id/tvSelectedChairman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Selected Chairman"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvChairmanName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="No chairman selected."
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCouncilors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10sp"
+        android:text="Barangay Councilors"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/councilorsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_container"
+        android:backgroundTint="@color/md_theme_light_secondaryContainer"
+        android:orientation="vertical"
+        android:paddingLeft="35dp"
+        android:paddingTop="15dp"
+        android:paddingRight="35dp"
+        android:paddingBottom="15dp">
+
+        <TextView
+            android:id="@+id/tvSelectedCouncilors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Selected Councilors"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvCouncilorNames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="No councilors selected."
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/cardview_light_background"
+    app:cardCornerRadius="20dp"
+    android:layout_marginHorizontal="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:gravity="center_horizontal"
+            android:text="Select Barangay Councilors"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/checkboxContainer" >
+
+            <CheckBox
+                android:id="@+id/councilorChoice1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eldric Basa" />
+
+            <CheckBox
+                android:id="@+id/councilorChoice2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Angela Cation" />
+
+            <CheckBox
+                android:id="@+id/councilorChoice3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Joshua Entrata" />
+
+            <CheckBox
+                android:id="@+id/councilorChoice4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Clarisse Salazar" />
+
+            <CheckBox
+                android:id="@+id/councilorChoice5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ronan Daliuag" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnVote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:text="Vote" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
